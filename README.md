@@ -2,14 +2,14 @@
 
 ## Overview
 
-This repository contains the implementation of a Hybrid Neural Network (HNN) for the automatic scoring of students' science writing. The approach is based on the paper titled "Automatic Scoring of Students’ Science Writing Using Hybrid Neural Network" presented at the AAAI2024 Workshop on AI for Education.
+This repository contains the implementation of a Hybrid Neural Network (HNN) for automatically scoring students' science writing. The approach is based on the paper "Automatic Scoring of Students’ Science Writing Using Hybrid Neural Network," presented at the AAAI2024 Workshop on AI for Education.
 
 ## Paper Title
 **Automatic Scoring of Students’ Science Writing Using Hybrid Neural Network**
 
 ## Abstract
 
-This study explores the efficacy of a multi-perspective hybrid neural network (HNN) for scoring student responses in science education with an analytic rubric. We compared the accuracy of the HNN model with four ML approaches (BERT, ANN, Naive Bayes, and Logistic Regression). The results have shown that HNN achieved 8%, 3%, 1%, and 0.12% higher accuracy than Naive Bayes, Logistic Regression, ANN, and BERT, respectively, for five scoring aspects (p < 0.001). The overall HNN’s perceived accuracy (M = 96.23%, SD = 1.45%) is comparable to the (training and inference) expensive BERT model’s accuracy (M = 96.12%, SD = 1.52%). We also have observed that HNN is twice as efficient in terms of training and inference compared to BERT and has comparable efficiency to the lightweight but less accurate Naive Bayes model. Our study confirmed the accuracy and efficiency of using HNN for automatically scoring students’ science writing.
+This study explores the efficacy of a multi-perspective hybrid neural network (HNN) for scoring student responses in science education with an analytic rubric. We compared the accuracy of the HNN model with four ML approaches (BERT, ANN, Naive Bayes, and Logistic Regression). The results have shown that HNN achieved 8%, 3%, 1%, and 0.12% higher accuracy than Naive Bayes, Logistic Regression, ANN, and BERT, respectively, for five scoring aspects (p < 0.001). The overall HNN’s perceived accuracy (M = 96.23%, SD = 1.45%) is comparable to the (training and inference) expensive BERT model’s accuracy (M = 96.12%, SD = 1.52%). We also have observed that HNN is twice as efficient in training and inference compared to BERT and has comparable efficiency to the lightweight but less accurate Naive Bayes model. Our study confirmed the accuracy and efficiency of using HNN to automatically score students’ science writing.
 
 ## Approach
 
@@ -21,7 +21,7 @@ This study assessed middle school students' ability to use energy to explain sci
 More than 1000 students from grades 6-8 participated in this study.
 
 #### Assessment Item and Human Scoring
-One assessment task was selected from the Next Generation Science Assessment, focusing on the application of chemistry ideas in real-world situations. A scoring rubric containing five response perspectives was developed, associated with each scoring aspect based on the dimensions of science learning.
+One assessment task was selected from the Next Generation Science Assessment, focusing on applying chemistry ideas in real-world situations. A scoring rubric containing five response perspectives was developed, associated with each scoring aspect based on the dimensions of science learning.
 
 #### Multi-Perspective HNN for Automatic Scoring
 The HNN involves BERT for word embeddings, a Bi-LSTM layer for sequential processing, and an attention mechanism for weighting the importance of different input parts.
@@ -30,7 +30,7 @@ The HNN involves BERT for word embeddings, a Bi-LSTM layer for sequential proces
 
 #### Figure 1: Assessment Item
 
-![Assessment Item](figures/assessment_item)
+![Assessment Item](figures/assessment_item.png)
 
 #### Figure 2: Hybrid Neural Network Architecture
 
